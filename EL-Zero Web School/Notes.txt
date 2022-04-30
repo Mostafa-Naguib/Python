@@ -1,0 +1,45 @@
+All Data in python is Object
+Objects contain elements
+Every element has its own index
+
+Floor Division[\\]=>A type of arithmetic operators
+
+# Set Items are not ordered and not indexed
+
+===============================================================
+mutable => "Changeable"
+
+# immutable data:
+1-Number.
+2-String.
+3-Tuple.
+
+# mutable data:
+1-List.
+2-Set.
+3-Dict.
+================================================================
+
+Lists=>[]
+Tuples=>()
+Sets=>{}
+Dictionary=>{
+}
+
+
+Assignment operators (+=, -=, *=, /=, etc)
+
+Control_ Flow = (if, elif, else)
+
+(Continue, Break, Pass)
+
+"Dry" => Don't repeat....
+
+
+(absolute path vs relative path)
+
+Iterable=>(String, List, Set, Tuple, Dictionary)
+Iterator=>( Iter(), next())
+
+
+pylint.exe => To keep the code standard
