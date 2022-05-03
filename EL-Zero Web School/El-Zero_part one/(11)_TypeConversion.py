@@ -47,8 +47,8 @@ print("=" * 40)
 
 # dict()
 
-Y = [["Egypt", "Cairo"], ["Australia", "Canberra"], ["Netherland", "Amsterdam"], ["Belgium", "Brussels"]]
+Y = [["Egypt", "Cairo"], ["Australia", "Canberra"], [
+    "Netherland", "Amsterdam"], ["Belgium", "Brussels"]]
 Z = (("One", 1), ("Two", 2), ("Three", 3), ("Four", 4))
 # can't convert sets
 print(dict(Y))
-

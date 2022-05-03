@@ -13,11 +13,11 @@ mutable => "Changeable"
 1-Number.
 2-String.
 3-Tuple.
+4-Set.
 
 # mutable data:
 1-List.
-2-Set.
-3-Dict.
+2-Dict.
 ================================================================
 
 Lists=>[]

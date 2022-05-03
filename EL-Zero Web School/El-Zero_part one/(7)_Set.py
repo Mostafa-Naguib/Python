@@ -1,7 +1,7 @@
 # Sets
 # Set Items are not ordered and not indexed
 # Set indexing and slicing can't be done
-# Set has immutable data type(Numbers, String, Tuples) List & Dict aren't
+# Sets have immutable data types(Numbers, String, Tuples) "List & Dict aren't"
 
 MyFirstSet = {7, 3.14, (1, 2, 3, 4), False}
 print(MyFirstSet)

@@ -5,6 +5,8 @@ X = range(100, 201)
 for number in X:
     print(number)
 
+print("=" * 78)
+
 countries = {
     "China": "1.407.098",
     "India": "1.380.721",

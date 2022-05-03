@@ -17,4 +17,4 @@ else:
 allMyLove = "ELZamalek"
 
 for letter in allMyLove:
-    print(letter)
+    print(letter, end="")

@@ -1,0 +1,15 @@
+(Classes)=>"Upper case", "We capitalize the first letter for each word" => (snake case)
+class First:
+class FirstPythonClass:
+---------------------------
+(Variables)=>"lower case", "We put _ between words"
+average = 10
+total_score = 20
+---------------------------
+(Function)=>"lower case", "We put _ between words"
+def display():
+def display_user_info():
+==============================================================================
+help("keywords")
+Arithmetic operators => (floor Division//) (Unray plus and minus +a, -b)
+ 
