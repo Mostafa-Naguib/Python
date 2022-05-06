@@ -16,3 +16,7 @@
 # Greater than   (>)
 # less than      (<)
 # ----------------------------------
+# *Logical Operators*
+# Logical And Operator (And)
+# Logical Or Operators (Or)
+# Logical Not Operators(Not)

@@ -5,12 +5,12 @@ country = input("Where are you from: ").strip().capitalize()
 
 userName = email[:email.index("@")]
 pEnlish_Course = 100
-student = "True"
+student = True
 
 if country == "Egypt" or country == "Syria" or country == "Palestine":
     print(f"Welcome {userName} to our English course because you're coming from {country}")
 
-    if student == "True":
+    if student is True:
         print(f"You'll just pay: {pEnlish_Course-95}")
     else:
         print(f"You'll just pay: {pEnlish_Course-90}")
