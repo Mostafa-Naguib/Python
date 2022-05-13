@@ -12,4 +12,5 @@ def display_user_info():
 ==============================================================================
 help("keywords")
 Arithmetic operators => (floor Division//) (Unray plus and minus +a, -b)
- 
+String in python is "unicode"
+Some terms in string > (Length, Index, Indices, Substring)

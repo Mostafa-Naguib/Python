@@ -10,7 +10,7 @@ A, B, C = 10, 100, 1000
 print(a, b, c)
 print(A, B, C)
 
-name = "Mostafa "
+name = "Mostafa " "Naguib "
 age = 20
 religion = " Muslim"
 
