@@ -1,13 +1,16 @@
-name = "Mostafa Naguib"
-religion = 'Muslim Sunni'
+name = "Mostafa 'Naguib'"
+religion = '"Muslim" \
+Sunni'
 fQuote = """you either live longer to see yourself become the villan
-or you die  a Hero"""
+or you die  a Hero\b"""
 sQuote = '''Many of life's failures are people who did not realize
-how close they were to success when they gave up'''
+how close they were to \"success\" when they gave up'''
+print("I was born on 2001\\10\\10")
 print(name)
 print(religion)
 print(fQuote)
 print(sQuote)
+print('=' * 44)
 # indexing:
 for x in range(0, 7):
     print(name[x], end="")
@@ -17,7 +20,7 @@ for x in range(-5, 0):
 print()
 # slicing:
 print('=' * 44)
-print(name[:7])
+print(name[0:7:1])
 print(religion[7:])
 
 # Function (Searching)
@@ -111,3 +114,33 @@ print(name.lstrip("@#$"))
 name = " Mostafa "
 print(name.rjust(11, "@"))
 print(name.ljust(11, "@"))
+
+
+tuple = ('Egypt', 'Sudan', 'Libya')
+massage = 'Egypt is the place where i live rightnow...'
+print(massage.startswith(tuple))
+
+massage = 'Welcome to our website python.edu'
+domain = ('com', 'net', 'edu', 'org')
+print(massage.endswith(domain))
+
+text = 'abcdefg'
+print(text.isalpha())
+
+text = 'abcd efg'
+print(text.isalpha())
+
+number = '1234'
+print(number.isnumeric())
+
+number = '1234'
+print(number.isdigit())
+
+massage = 'MOSTAFATWENTY'
+print(massage.isalnum())
+
+name = 'Mostafa'
+print(name.islower())
+print(name.isupper())
+print(name.istitle())
+print(name.isspace())
