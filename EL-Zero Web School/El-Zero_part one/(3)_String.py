@@ -59,7 +59,7 @@ print(c.zfill(4))
 print(d.zfill(4))
 
 
-print("______________________________________________")
+print("_____________________k,j________________________")
 # split=>convert to list
 FullName = "Mostafa Naguib El-Sayed Hassan Ali"
 print(FullName.split())
