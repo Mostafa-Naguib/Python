@@ -16,3 +16,6 @@ String in python is "unicode"
 Some terms in string > (Length, Index, Indices, Substring)
 
 "Escape sequence"
+
+Immutable => String, number, tuple, set
+mutable =>list
