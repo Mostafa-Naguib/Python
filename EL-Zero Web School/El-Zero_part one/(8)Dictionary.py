@@ -23,7 +23,7 @@ print("-" * 80)
 
 # Two_dimensional_Dictionary
 
-Countries = {
+countries = {
     "England": {
         "Capital": "London",
         "Population": 8.9
@@ -43,11 +43,11 @@ Countries = {
 
 }
 
-print(Countries)
-print(Countries["Germany"])
-print("I'm hoping in future to visit {}" .format(Countries["England"]["Capital"]))
-print(len(Countries))
-print(len(Countries["England"]))
+print(countries)
+print(countries["Germany"])
+print("I'm hoping in future to visit {}" .format(countries["England"]["Capital"]))
+print(len(countries))
+print(len(countries["England"]))
 
 
 Germany = {
