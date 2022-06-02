@@ -11,4 +11,5 @@ def Recursion(number):
 
     return number[0] + Recursion(number[1:])
 
+
 print(Recursion("111222333444555"))
