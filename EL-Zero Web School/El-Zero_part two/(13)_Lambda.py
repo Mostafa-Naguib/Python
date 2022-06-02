@@ -4,7 +4,9 @@ def greeting(name):
 
 print(greeting("Mostafa"))
 
-x = lambda name: f"Welcome {name}"
+
+def x(name): return f"Welcome {name}"
+
 
 print(x("Mostafa"))
 

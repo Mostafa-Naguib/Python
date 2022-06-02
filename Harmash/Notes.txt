@@ -19,3 +19,5 @@ Some terms in string > (Length, Index, Indices, Substring)
 
 Immutable => String, number, tuple, set
 mutable =>list, dictionary
+
+(Built in function - user defined function)
