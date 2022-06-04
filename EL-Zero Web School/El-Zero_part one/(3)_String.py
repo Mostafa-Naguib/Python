@@ -1,7 +1,7 @@
 # String
 
-FullName = "'Mostafa' Naguib El-Sayed Hassan Ali"
-FullName = '"Mostafa" Naguib El-Sayed Hassan Ali'
+full_name = "'Mostafa' Naguib El-Sayed Hassan Ali"
+full_name = '"Mostafa" Naguib El-Sayed Hassan Ali'
 
 ID1 = """I'm Mostafa
 I'm 20 years old
@@ -12,8 +12,8 @@ a_quote = """you either live longer to see yourself become the \\\ villan
 or you die  a Hero"""
 print(a_quote)
 
-print("______________________________________________")
 
+print("_" * 40)
 # Index
 country = "I love Egypt so much"
 print(country[0])
@@ -23,11 +23,10 @@ country = "I love palestine so much"
 print(country[:16])
 print(country[0::2])
 
-print("______________________________________________")
-print("______________________________________________")
+print("_" * 40)
+print("_" * 40)
 
 # Start from String methods
-
 print("______________________________________________")
 # 1- strip() rstrip() lstrip()
 country1 = "       I love palestine so much         "

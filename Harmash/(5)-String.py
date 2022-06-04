@@ -53,7 +53,12 @@ print(opinion.split())
 print('=' * 20, 'splitlines()', '=' * 20)
 ID = """My name is Mostafa.\nI'm 20 years old.\nI live in Cairo."""
 print(ID.splitlines())
-
+print("-------------------------------")
+Populatation = """China
+India
+USA"""
+print(Populatation.split())
+print(Populatation.splitlines())
 
 # function(Replacing)
 print('=' * 10, '@Function(Replacing)@', '=' * 10)
@@ -95,7 +100,7 @@ print(massage.capitalize())
 print('=' * 20, 'title()', '=' * 20)
 print(massage.title())
 
-# split()
+# join()
 print('=' * 20, 'join()', '=' * 20)
 name = 'Mostafa Naguib ElSayed Hassan'
 arr = name.split()
