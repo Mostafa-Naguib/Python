@@ -80,8 +80,8 @@ print("=" * 35)
 Test1 = {1, 2, 3, 4, 5}
 Test2 = {"One", "Two", "Three", "Four", "Five", 1, 2}
 print(Test1)
-Test2.difference_update(Test1)
-print(Test2)
+Test1.difference_update(Test2)
+print(Test1)
 print("=" * 35)
 
 # intersection()

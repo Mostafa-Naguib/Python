@@ -41,7 +41,7 @@ Numbers.sort(reverse=True)
 print(Numbers)  # descend
 
 # reverse()
-Numbers = [5, 3, 1, 4, "Mostafa", 6, 2, 4]
+Numbers = [5, 3, 1, 4, 6, 2, 4]
 Numbers.reverse()
 print(Numbers)
 
@@ -50,7 +50,7 @@ Numbers = [5, 3, 1, 4, "mostafa", 6, 2, 4]
 Numbers.clear()
 print(Numbers)
 
-# copy()
+# copy(Deep Copy)
 V = [11, 22, 33, 44, 55, 66]
 X = V.copy()
 print(X)
@@ -77,3 +77,4 @@ print(Countries)
 # pop()
 Countries = ["Canada", "Brazil", "Belgium", "Greece"]
 print(Countries.pop(-1))
+print(Countries)

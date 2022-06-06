@@ -12,7 +12,7 @@ num_2 = odd[0:3]
 print(num_2)
 
 even = (0, 2, 4, 6, 8, 10)
-odd = (1, 3, 5, 7, 9, 11)
+odd = (1, 3, 5, 7, 9, 11, even[0])
 num = even + odd
 print(num)
 print(0 in even)
@@ -41,3 +41,12 @@ print(min(base_10))
 
 print("=" * 20, "max()", "=" * 20)
 print(max(base_10))
+
+
+# Destruct...
+Numbers = (1, 2, 0, 3)
+A, B, _, C = Numbers
+
+print(A)
+print(B)
+print(C)

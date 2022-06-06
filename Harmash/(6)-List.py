@@ -77,7 +77,7 @@ number = [1, 2, 3, 4, 5, 6]
 number.clear()
 print(number)
 
-# copy()
+# copy() "Deep Copy"
 print("=" * 20, "copy()", "=" * 20)
 number = [1, 2, 3, 4, 5, 6]
 clone = number.copy()

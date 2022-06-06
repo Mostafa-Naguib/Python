@@ -1,4 +1,5 @@
-set = {1, 2, 3, 4, 5, 6, 7, 8}
+# the items in the sets are unique
+set = {1, 2, 3, 4, (1, 3, 4, 7), 5, 6, 7, 7, 8}
 print(set)
 # del set
 print(0 in set)
@@ -39,7 +40,7 @@ print(numbers)
 print(numbers.pop())
 print(numbers)
 
-# copy()
+# copy(shallow)
 print("=" * 20, "copy()", "=" * 20)
 numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 Base_10 = numbers.copy()
@@ -71,7 +72,7 @@ set_2 = {0, 1, 2, 3, 4, 5}
 set_1.intersection_update(set_2)
 print(set_1)
 
-# symmetric_difference()
+# symmetric_difference()  # it gives the differences between two sets
 print("=" * 20, "symmetric_difference()", "=" * 20)
 set_1 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 set_2 = {0, 1, 2, 3, 4, 5}
@@ -79,8 +80,8 @@ print(set_2.symmetric_difference(set_1))  # set_1 ^ set_2
 
 # symmetric_difference_update()
 print("=" * 20, "symmetric_difference_update()", "=" * 20)
-set_1 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-set_2 = {0, 1, 2, 3, 4, 5}
+set_1 = {0, 1, 2, 3, 4, 5, 6, "y", 7, 8, 9}
+set_2 = {0, 1, 2, 3, 4, 5, "X"}
 set_1.symmetric_difference_update(set_2)
 print(set_1)
 
@@ -90,6 +91,7 @@ set_1 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 set_2 = {10, 11, 12, 13, 14, 15}
 set_3 = {16, 11, 12, 13, 14, 15}
 NewSet = set_1.union(set_2, set_3)
+print(set_1 | set_2 | set_3)
 print(NewSet)
 
 # Update()
