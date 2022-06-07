@@ -6,7 +6,7 @@
 
 
 A_Student = {
-    "Name": "mostafa",
+    "Name": "Mostafa",
     "Age": 20,
     "faculty": "Agriculture",
     "My favorite years": [1911, 1973, 1999, 2001],

@@ -7,7 +7,7 @@ Tries = 5
 
 while X != Correct_password:
     print(
-        f"Incorrect password \nYou just have {'last chance' if Tries == 1 else  f'{Tries} chances'} to try...")
+        f"Incorrect password \nYou have {'last chance' if Tries == 1 else  f'{Tries} chances'} to try")
     X = input("Please, Enter your password again: ")
     Tries -= 1
 

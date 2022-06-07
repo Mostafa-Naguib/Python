@@ -1,7 +1,14 @@
+# Dict "key" need to be immutable=>(String, Numbers, Tuples) Lists aren't allow
+# Dict key need to be unique
+# Dict "value" can have any data types
+
 dict = {
     "FN": "Mostafa",
     "SN": "Naguib",
-    "LN": "El-sayed"
+    "LN": "El-sayed",
+    "LN": "Dawod",
+    20: "is my age",
+    ("Egypt", "Palestine", "Syria"): "are my favorite countries",
 }
 # just show the function:
 print(dict)
@@ -34,7 +41,7 @@ A_Student = {
 A_Student.clear()
 print(A_Student)
 
-# copy()
+# copy(shallow copy)
 print("=" * 20, "copy()", "=" * 20)
 A_Student = {
     "Name": "Mostafa",
@@ -135,3 +142,16 @@ countries = {
 }
 
 print(countries)
+print(countries["Russia"])
+print(countries["Russia"]["capital"])
+
+
+# type conversoin
+# dict()
+print("=" * 20, "dict()", "=" * 20)
+Y = [["Egypt", "Cairo"], ["Australia", "Canberra"], [
+    "Netherland", "Amsterdam"], ["Belgium", "Brussels"]]
+Z = (("One", 1), ("Two", 2), ("Three", 3), ("Four", 4))
+# can't convert sets
+print(dict(Y))
+print(dict(Z))

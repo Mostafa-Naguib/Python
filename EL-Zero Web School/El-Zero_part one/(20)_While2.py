@@ -1,4 +1,3 @@
-
 Arab_World = []
 North_Africa = ["Egypt", "libya", "Morocco", "Algeria", "Tunisia", "Mauritania", "Sudan"]
 Gulf = ['Saudi Arabia', "UAE", "Bahrain", "Oman", "Kuwait", "Qatar", "Iraq"]

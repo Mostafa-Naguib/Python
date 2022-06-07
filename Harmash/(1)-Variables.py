@@ -21,3 +21,6 @@ print(identity)
 cairo = "I love cairo "  # Single word=> standard
 egyptCairo = "I love cairo"  # Tow words=> camelCase
 egypt_cairo = "I love cairo"  # Tow words=> snake_case
+
+Age = 14
+print(not Age < 18)  # not True = False
