@@ -53,3 +53,41 @@ print(y)
 # print(func(2001, 2022))
 
 # print(func.__name__)
+
+
+# packing and unpacking
+print("=" * 10, "Packing and unpacking", "=" * 10)
+companies_with_dates = {
+    "Microsoft": 1975,
+    "Apple": 1976,
+    "Google": 1998,
+    "IBM": 1911,
+    "Intel": 1968,
+    "AMD": 1969
+}
+
+
+def history(writer, **companies_with_dates):
+    print(type(companies_with_dates))
+
+    for key, value in companies_with_dates.items():
+        print(f"{key} is founded in \"{value}\"...")
+
+
+history("Mostafa", **companies_with_dates)
+
+
+# recursive functions...
+print("=" * 10, "recursive-Function", "=" * 10)
+f = 1
+
+
+def recursion(num):
+    if num == 1:
+        return 1
+    else:
+        # the first num is stash
+        return num * recursion(num - 1)
+
+
+print(recursion(6))

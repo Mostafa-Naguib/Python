@@ -21,3 +21,5 @@ Immutable => String, number, tuple, set
 mutable =>list, dictionary
 
 (Built in function - user defined function)
+
+(absolute path vs relative path)

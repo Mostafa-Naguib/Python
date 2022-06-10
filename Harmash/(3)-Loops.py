@@ -57,3 +57,51 @@ for realCountries in AsianCounries:
         continue
 
     print(realCountries)
+
+
+# here you can find how loops deal with dictionary
+print("#" * 20, "loop and dictionary", "#" * 20)
+print("=" * 10, "One dimensional dictionary", "=" * 10)
+countries = {
+    "China": "1.407.098",
+    "India": "1.380.721",
+    "USA": "331.893",
+    "Indonesia": "275.122",
+    "Pakistan": "238.181"
+}
+
+# print(countries["Pakistan"])
+
+for x in countries:
+    print(f"{x}: {countries[x]}")
+
+
+# Two_dimensional_Dictionary
+print("=" * 10, "Two dimensional dictionary", "=" * 10)
+countries = {
+    "England": {
+        "Capital": "London",
+        "Population": 9.5
+    },
+    "Germany": {
+        "Capital": "Berlin",
+        "Population": 3.5
+    },
+    "Japan": {
+        "Capital": "Tokyo",
+        "Population": 37
+    },
+    "Russia": {
+        "Capital": "Moscow",
+        "Population": 12
+    }
+
+}
+
+# print(countries["Japan"])
+# print(countries["Russia"]["capital"])
+
+for x in countries:
+    print(f"{x}:")
+    for y in countries[x]:
+        print(f"-{y} ==> {countries[x][y]}")

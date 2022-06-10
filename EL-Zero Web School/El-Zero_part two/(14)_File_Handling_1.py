@@ -1,4 +1,5 @@
 # absolute path....
+import os
 x = open(r"C:\Users\moust\Desktop\pass.txt")
 
 # relative path....
@@ -7,7 +8,6 @@ x = open(r"Hello.txt")
 
 print("===============================")
 
-import os
 
 print(os.getcwd())
 

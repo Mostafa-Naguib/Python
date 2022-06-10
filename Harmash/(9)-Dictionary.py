@@ -118,6 +118,20 @@ A_Student = {
 A_Student.update({"Name": "Mostafa Naguib"})
 print(A_Student)
 
+# items()
+print("=" * 20, "items()", "=" * 20)
+a_student = {
+    "Name": "mostafa",
+    "Age": 20,
+    "faculty": "Agriculture",
+    "My favorite years": [1911, 1973, 1999, 2001],
+    ("Egypt", "Palestine", "Syria"): "are my favorite countries",
+    "Name": "Mostafa naguib"
+}
+
+# print(a_student.items())
+for key, value in a_student.items():
+    print(f"{key}==> {value}")
 
 # ===================================================
 print("=#" * 10, "Two_dimensional_Dictionary", "#=" * 10)
@@ -141,10 +155,19 @@ countries = {
 
 }
 
-print(countries)
-print(countries["Russia"])
-print(countries["Russia"]["capital"])
+# print(countries)
+# print(countries["Russia"])
+# print(countries["Russia"]["capital"])
 
+# items()
+print("=" * 20, "items()", "=" * 20)
+# print(countries.items())
+
+for key, value in countries.items():
+    print(f"{key} ==> ")
+    for key, value in value.items():
+        print(f"{key}: {value}")
+    print("-" * 22)
 
 # type conversoin
 # dict()

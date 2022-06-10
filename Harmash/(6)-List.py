@@ -108,3 +108,9 @@ print("=" * 20, "min()", "=" * 20)
 print(min(number))
 print("=" * 20, "max()", "=" * 20)
 print(max(number))
+
+print("=" * 20)
+
+test = [1, 2, 3, 4, 5]
+print(test)
+print(*test)
