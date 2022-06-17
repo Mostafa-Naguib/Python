@@ -1,14 +1,12 @@
-def type(num):
-    return num % 2 == 0
+from module_1 import checker
 
 
-li = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+def arabCountries(name):
+    return checker(name)
 
-print(list(filter(type, li)))
+
+list = ["Saudi Arabia", "Syria", "Iraq", "Germany", "Iran", "Turkey"]
 
 
-print("=" * 55)
-
-i = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-
-print(list(filter((lambda num: num % 2 == 0), i)))
+for value in filter(arabCountries, list):
+    print(value)

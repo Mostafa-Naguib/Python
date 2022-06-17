@@ -1,14 +1,20 @@
-# predfiened function
-def function(num):
-    return num * num
+# map is a predfiened function...
+def typeNumber(num):
+    if num % 2 == 0:
+        return f"{num} is even number"
+    else:
+        return f"{num} is odd number"
 
 
-li = [1, 2, 3, 4, 5, 6, 7]
+tuple = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
-for x in map(function, li):
+for x in map(typeNumber, tuple):
     print(x)
 
-print("==========================")
+# using lambda function...
+print("=" * 55)
 
-for y in map(lambda num: num * num, li):
-    print(y)
+list = [11, 12, 13, 14, 15, 16, 17, 18, 19]
+
+for x in map(lambda num: f"{num} is even number" if num % 2 == 0 else f"{num} is odd number", list):
+    print(x)

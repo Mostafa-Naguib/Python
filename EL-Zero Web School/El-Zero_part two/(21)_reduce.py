@@ -1,18 +1,17 @@
 from functools import reduce
+import module_2 as x
 
 
-def num(x, y):
-    return x + y
+def sum(num1, num2):
+    return num1 + x.factorial(num2)
 
 
-li = [1, 2, 3, 4, 5, 6, 7]
+tuple = (1, 2, 3, 4)
+result = reduce(sum, tuple)
+print(result)
 
+# -------------------------------lambda function-------------------------------------
+tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9)
 
-print(reduce(num, li))
-
-# ========================================
-print("=" * 44)
-
-li = [11, 22, 33, 44, 55, 66, 77]
-
-print(reduce((lambda x, y: x + y), li))
+result = reduce(lambda num1, num2: num1 + num2, tuple)
+print(result)
