@@ -1,7 +1,6 @@
-import termcolor
-import pyfiglet
+import termcolor as term
+import pyfiglet as fig
 
-print(termcolor.colored("Mostafa", color="red"))
-print(pyfiglet.figlet_format("Mostafa"))
+print(dir(fig))
 
-print(termcolor.colored(pyfiglet.figlet_format("El-Zamalek"), color="green"))
+print(term.colored(fig.figlet_format("Mostafa"), color="yellow"))

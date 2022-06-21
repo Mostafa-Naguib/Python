@@ -1,19 +1,14 @@
-def decorate(x):
-
-    def input():
-        import termcolor
-        import pyfiglet
-
-        print(termcolor.colored(pyfiglet.figlet_format("Welcome"), color="green"))
-        x()
-
-    return input
+def decorator(func):
+    def first():
+        print("Hello")
+        func()
+        print("You're welcome")
+    return first
 
 
-@decorate
+@decorator
 def name():
-    name = input("Enter your name: ")
-    print("Your name is: ", name)
+    print(input("Enter your name: "))
 
 
 name()

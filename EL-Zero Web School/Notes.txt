@@ -43,3 +43,6 @@ Iterator=>( Iter(), next())
 
 
 pylint.exe => To keep the code standard
+
+
+Decorators is called Meta programming
