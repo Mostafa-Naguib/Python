@@ -1,12 +1,18 @@
 try:
-    x = int(input("Enter your phone number: "))
-    print(f"This is your phone number {x}")
+    num = int(input("Enter your phone number: "))
+    print(f"This is your phone number {num}")
 
 except ValueError:
-    print("please enter a valid value...")
+    print("Please enter a valid value...")
 
-else:
+except NameError:
+    print("Invalid syntax")
+
+except:
+    print("There's an error in the code")
+
+else:  # It just excutes when the code works well...
     print("How is it going? ")
 
-finally:
+finally:  # It excutes whatever happens...
     print("See you soon...")

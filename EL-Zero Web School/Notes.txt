@@ -46,3 +46,10 @@ pylint.exe => To keep the code standard
 
 
 Decorators is called Meta programming
+
+"Pillow" is a package for image manipulation...
+
+
+all built in exceptions in ==> "https://docs.python.org/3/library/exceptions.html"
+
+To test your code according to standards we use pylint.exe #########

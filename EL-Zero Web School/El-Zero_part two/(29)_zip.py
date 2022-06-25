@@ -6,5 +6,3 @@ dict1 = {"country": "Egypt", "language": "Arabic", "religion": "Islam"}
 
 for x in zip(list1, list2, tuple1, dict1):
     print(x)
-
-print("#" * 44)
