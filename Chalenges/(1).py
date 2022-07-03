@@ -1,16 +1,17 @@
-# My own solution...
+# My Own Solution...
 n = 0
 while n <= 0:
-    n = int(input("Eter the number of line: "))
+    n = int(input("The number of lines: "))
 
 i = 1
 while i <= n:
     j = 1
     while j <= i:
-        print("*", end="")
+        print("* ", end="")
         j += 1
-    print("")
+    print()
     i += 1
+
 
 # First solution....
 print("#" * 50)
