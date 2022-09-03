@@ -1,8 +1,12 @@
+help("keywords")
+Arithmetic operators => (floor Division//) (Unray plus and minus +a, -b)
+String in python is "unicode"
+Some terms in string > (Length, Index, Indices, Substring)
+
+
 All Data in python is Object
 Objects contain elements
 Every element has its own index
-
-Floor Division[\\]=>A type of arithmetic operators
 
 # Set Items are not ordered and not indexed
 
@@ -20,21 +24,9 @@ mutable => "Changeable"
 2-Dict.
 ================================================================
 
-Lists=>[]
-Tuples=>()
-Sets=>{}
-Dictionary=>{
-}
-
-
-Assignment operators (+=, -=, *=, /=, etc)
-
-Control_ Flow = (if, elif, else)
-
 (Continue, Break, Pass)
 
-"Dry" => Don't repeat....
-
+"Dry" => Don't repeat yourself....
 
 (absolute path vs relative path)
 
@@ -53,3 +45,9 @@ Decorators is called Meta programming
 all built in exceptions in ==> "https://docs.python.org/3/library/exceptions.html"
 
 To test your code according to standards we use pylint.exe #########
+
+name = "Mostafa"
+len(name) ==> "It's a general purpose function, so it's not limited to any type of data"
+name.upper(name) ==> "It's a method just specific to string" 
+
+The augmented assignment operator
